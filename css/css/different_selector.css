@@ -1,12 +1,15 @@
+/* class selector */
 .green {
   color: green;
   background-color: grey;
 }
+/* id selectors ,here if id is typed before class in html id would be prefered in css styling */
 #top {
   color: red;
   background-color: black;
   text-transform: uppercase;
 }
+/* grouping selectors */
 h1,
 h2 {
   text-transform: lowercase;
