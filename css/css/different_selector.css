@@ -1,0 +1,13 @@
+.green {
+  color: green;
+  background-color: grey;
+}
+#top {
+  color: red;
+  background-color: black;
+  text-transform: uppercase;
+}
+h1,
+h2 {
+  text-transform: lowercase;
+}
