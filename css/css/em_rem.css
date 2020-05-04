@@ -1,0 +1,11 @@
+/* 1em =16px default browser style
+1 em=base value */
+div {
+  font-size: 10px;
+}
+.relative {
+  font-size: 2rem;
+}
+.absolute {
+  font-size: 32px;
+}
