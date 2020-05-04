@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+}
+h1 {
+  background-color: red;
+  padding: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  border-style: solid;
+  border-width: 20px 10px;
+  border-color: yellow;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+}
+p {
+  background-color: blue;
+  border: 13px solid green;
+  /* padding: 30px; */
+  /* this is top bottom ,then left and right */
+  /* padding: 30px 60px; */
+  /* padding: 20px 40px 60px 10px; */
+  padding: 20px;
+  margin-top: 20px;
+}
+.radius {
+  /* border-radius: 10px; */
+  border-radius: 50%;
+  border: 10px solid black;
+}
