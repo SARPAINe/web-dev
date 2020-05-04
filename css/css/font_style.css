@@ -1,0 +1,28 @@
+a {
+  font-size: 40px;
+  text-decoration: none;
+}
+h1 {
+  font-family: "Caveat", cursive;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  text-indent: 50px;
+  text-transform: lowercase;
+}
+.one {
+  font-style: normal;
+  line-height: 2.5em;
+  text-decoration: underline;
+}
+.two {
+  letter-spacing: 5px;
+  word-spacing: 20px;
+}
