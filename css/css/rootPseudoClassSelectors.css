@@ -1,0 +1,14 @@
+:root {
+  /* background: red; */
+  font-size: 150%;
+}
+h1 {
+  font-size: 3rem;
+}
+.absolute {
+  font-size: 24px;
+}
+.responsive {
+  font-size: 1.5rem;
+}
+/* we can check the difference by changing browser font size */
