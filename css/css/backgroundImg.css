@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 600px;
+  min-height: 100vh;
+  color: red;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-img {
+  border: 2px solid red;
+  background: url("../images/wind.jpeg");
+  /* background-repeat: round; */
+  background-size: cover;
+  background-attachment: fixed;
+}
+.small-img {
+  height: 400px;
+  background: url("../images/whiteWindMill.jpeg");
+  /* will cover the whole div,but whole image may not be shown */
+  background-size: cover;
+  /* will cover the whole div,whole image will be shown and and as a result there will be repeat */
+  /* background-size: contain; */
+  /* background-position: center; */
+  background-attachment: fixed;
+}
