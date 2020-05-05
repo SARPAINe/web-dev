@@ -1,0 +1,27 @@
+div {
+  width: 300px;
+  height: 150px;
+  display: inline-block;
+}
+.one {
+  background: red;
+  transform: skew(20deg);
+  /* transform: rotate(340deg); */
+  /* transform: translateX(50%); */
+  /* 50% means 50% of 150px */
+  /* transform: scaleX(2); */
+  /* on x direction it becomes twice as big */
+}
+.two {
+  background: green;
+  /* transform: rotateZ(250deg); */
+  transform: skewY(-20deg);
+}
+.three {
+  background: blue;
+  /* transform: translate(20px, 30px); */
+  /* transform: scale(0.5, 0.5); */
+  /* transform: rotateX(90deg); */
+  /* transform: rotateY(80deg); */
+  transform: skew(20deg, 20deg);
+}
