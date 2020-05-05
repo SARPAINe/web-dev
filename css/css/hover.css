@@ -1,0 +1,23 @@
+.header:hover {
+  color: red;
+  background: black;
+}
+p:hover {
+  background: blue;
+  display: block;
+}
+
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+a:active {
+  color: green;
+}
