@@ -1,0 +1,39 @@
+div {
+  width: 200px;
+  height: 100px;
+  color: red;
+  margin: 2px;
+}
+.animations {
+  background: blue;
+  /* animation-name: move;
+  animation-duration: 4s;
+  animation-iteration-count: 2; */
+  animation: move 4s 2;
+  animation-fill-mode: forwards;
+}
+@keyframes move {
+  0% {
+    /* transform: translateX(20px); */
+    opacity: 0;
+  }
+  25% {
+    /* transform: translateX(100px);
+    background: red; */
+    opacity: 0.5;
+    transform: translateX(200px);
+  }
+
+  50% {
+    /* transform: translateX(-200px);
+    background: yellow; */
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+  100% {
+    /* transform: translateX(20px);
+    background: green; */
+    opacity: 0.5;
+    transform: translateX(0px);
+  }
+}
