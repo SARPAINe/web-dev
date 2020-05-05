@@ -1,0 +1,38 @@
+/* .heading {
+  color: #f15039;
+}
+.text {
+  color: rgb(135, 218, 11);
+}
+.main-text {
+  color: blue;
+}
+.second-heading {
+  color: #f15025;
+} */
+:root {
+  --primaryColor: #f1323f;
+  --mainTransition: all 0.4s linear;
+  --transitionColor: orange;
+  /* these are global variables as we can use them from any element */
+}
+.heading {
+  color: var(--primaryColor);
+}
+.second-heading {
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.second-heading:hover {
+  color: var(--transitionColor);
+}
+div {
+  --primaryRed: red;
+  /* it is local variable ,we can only use it from the elements which are its descendents */
+}
+.main-text {
+  color: var(--primaryRed);
+}
+.third-heading {
+  color: var(--primaryColor);
+}
