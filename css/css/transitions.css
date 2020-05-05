@@ -1,0 +1,27 @@
+div {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+div:hover {
+  background: coral;
+}
+.one {
+  background: red;
+}
+.two {
+  background: green;
+}
+.three {
+  background: blue;
+  /* transition-property: background, border-radius;
+  transition-duration: 4s, 2s;
+  transition-delay: 2s; */
+  /* here is the shortcut */
+  /* transition: background 4s 2s, border-radius 4s 2s;
+   */
+  transition: all 4s 2s;
+}
+.three:hover {
+  border-radius: 50%;
+}
