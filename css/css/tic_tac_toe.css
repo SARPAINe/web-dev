@@ -1,0 +1,18 @@
+table {
+  margin: auto;
+}
+td {
+  width: 100px;
+  height: 100px;
+  /* border: 1px solid black; */
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
+}
+.middle {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.hori {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
